@@ -1,0 +1,155 @@
+body {
+  margin: 0 auto;
+}
+
+header button {
+  float: right;
+  padding: 12px 12px;
+  margin: 15px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #22a4cf;
+  color: white;
+  border: none;
+}
+
+header button:hover,
+.top-wrapper button:hover,
+.wrapper-img button:hover {
+  opacity: 0.5;
+}
+
+header h1 {
+  float: left;
+  margin: 15px 15px;
+}
+
+.top-wrapper {
+  background-image: url(assets/top-wrapper-bg.jpg);
+  background-size: fill;
+  padding: 180px 0 100px 0;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper button {
+  padding: 12px 12px;
+  margin: 15px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #22a4cf;
+  color: white;
+  border: none;
+}
+
+.top-wrapper h5 {
+  font-size: 20px;
+  margin: 15px;
+  width: 50%;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.container h1 {
+  text-align: center;
+  font-size: 2vw;
+}
+.wrapper-img {
+  float: left;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px black;
+  width: 26%;
+  height: 410px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+  text-align: center;
+  transition: 2s;
+}
+.zoom-effect {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.kotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.wrapper-img h2 {
+  text-align: center;
+}
+.wrapper-img p {
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+}
+.wrapper-img button {
+  padding: 10px 12px;
+  margin: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #22a4cf;
+  color: white;
+  border: white 1px solid;
+}
+.bottom-wrapper {
+  float: left;
+  margin-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.bottom-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom-wrapper ul li {
+  text-align: center;
+  list-style: none;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-instagram:hover {
+  color: #5b51d8;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.copy-right {
+  border-top: 1px solid white;
+}
