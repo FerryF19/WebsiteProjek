@@ -26,7 +26,7 @@ header h1 {
 }
 
 .top-wrapper {
-  background-image: url(top-wrapper-bg.jpg);
+  background-image: url(root/top-wrapper-bg.jpg);
   background-size: fill;
   padding: 180px 0 100px 0;
   height: 150px;
